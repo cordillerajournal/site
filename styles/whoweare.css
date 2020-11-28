@@ -1,0 +1,556 @@
+body, html {
+  font-family: "Helvetica";
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-color:   #f3ecec;
+}
+
+/*navigation*/
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 19px;
+  padding-top: 50px;
+  margin-right: 65px;
+  overflow: hidden;
+  display: flex;
+  float: right;
+  text-transform: uppercase;
+  font-family: 'Helvetica', sans-serif;
+  font-stretch:extra-expanded;
+  transform: scale(1.28, 1);
+  -webkit-transform: scale(1.2, 1); /* Safari and Chrome */
+  -moz-transform: scale(1.2, 1); /* Firefox */
+  -ms-transform: scale(1.2, 1); /* IE 9+ */
+  -o-transform: scale(1.2, 1); /* Opera */
+}
+
+img.title{
+  display: flex;
+  float: left;
+  margin-top: 44px;
+  margin-left: 49px;
+  width:60px;
+}
+
+nav li a {
+  text-align: center;
+  padding: 2px 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #222a6e;
+  background-image: linear-gradient(#cdddfb, #cdddfb);
+  background-position: 4% 85%;
+  background-repeat: no-repeat;
+  background-size: 0% 25px;
+  transition: background-size .3s;
+}
+
+nav li a:hover, a:focus {
+  opacity: 0.9;
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+  background-size: 100% 25px;
+}
+
+.row{
+  display: flex;
+  flex-direction:  row;
+  flex-wrap: wrap;
+  z-index: 400;
+  margin-left: 0%;
+  width: 90vw;
+}
+
+.column{
+  display: flex;
+  flex-direction:  column;
+  flex: 1;
+  border-spacing: 5px;
+  margin: 10px;
+  z-index: 400;
+}
+
+.one-column{
+  text-align: center;
+}
+
+.two-column{
+  text-align: center;
+}
+
+.three-column{
+  text-align: right;
+}
+
+/* footer links  */
+a.foot-link  {
+  font-family: 'Helvetica', sans-serif;
+  font-stretch:extra-expanded;
+  transform: scale(1.1, 1);
+  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
+  -moz-transform: scale(1.1, 1); /* Firefox */
+  -ms-transform: scale(1.1, 1); /* IE 9+ */
+  -o-transform: scale(1.1, 1); /* Opera */
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-left: -5%;
+  background-image: linear-gradient(#cdddfb, #cdddfb);
+  background-position: 15% 85%;
+  background-repeat: no-repeat;
+  background-size: 0% 25px;
+  transition: background-size .3s;
+  text-decoration: none;
+}
+
+/* footer links  */
+a.foot-link:hover  {
+  font-size: 16px;
+  transition: 0.5s;
+  opacity: 0.9;
+  text-decoration: none;
+  background-size: 30% 25px;
+}
+
+span {
+  color: #222a6e;
+  letter-spacing: 0.5px;
+}
+
+
+
+/* footer header  */
+p.foot-link  {
+  font-family: "Georgia";
+  text-decoration: none;
+  font-weight: bold;
+  color: #222a6e;
+  font-size: 16px;
+  text-align: left;
+  margin-left: -8%;
+}
+
+.header-block{
+  padding-top: 40px;
+}
+#foot.row{
+  display: flex;
+  flex-direction:  row;
+  flex-wrap: wrap;
+  z-index: 400;
+  margin-left: 5%;
+  width: 95vw;
+  bottom: 1%;
+}
+
+#foot.column{
+  display: flex;
+  flex-direction:  column;
+  flex: 1;
+  border-spacing: 5px;
+  margin: 10px;
+  z-index: 400;
+}
+
+#foot.one-column{
+  text-align: center;
+}
+
+#foot.two-column{
+  text-align: center;
+}
+
+#foot.three-column{
+  text-align: right;
+}
+
+img.team-img {
+  justify-content: center;
+  width: 200px;
+  /* position: absolute; */
+  left: calc(50% - 100px);
+  top: 19vh;
+}
+
+/* img.We-are {
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  left: calc(50% - 100px);
+  top: 19vh;
+  background-color: #d2dbef;
+    display:inline;
+} */
+
+
+
+h2.We-are{
+  font-family: "Georgia";
+  font-size: 40px;
+  z-index: 400;
+  /* margin-left: 15%; */
+  color: #222a6e;;
+  padding-top: 70px;
+  width: 100%;
+  margin-bottom: 0;
+  font-weight: 600;
+  text-align: center;
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 0.1em;
+
+}
+
+/* font alingment and size of position */
+h2.paragraph  {
+  z-index: 400;
+  margin-left: 23%;
+  color: #222a6e;;
+  margin-top: 15px;
+  width: 65%;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 0.1em;
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  font-stretch:extra-expanded;
+  transform: scale(1.1, 1);
+  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
+  -moz-transform: scale(1.1, 1); /* Firefox */
+  -ms-transform: scale(1.1, 1); /* IE 9+ */
+  -o-transform: scale(1.1, 1); /* Opera */
+  letter-spacing: 0.5px;;
+  font-size: 18px;
+  font-weight: thin;
+  line-height: 1.5;
+  z-index: 400;
+  margin-bottom: 10vh;
+}
+
+/* font alingment and size of position */
+h2.Name  {
+  font-family: 'Helvetica', sans-serif;
+  font-stretch:extra-expanded;
+  transform: scale(1.1, 1);
+  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
+  -moz-transform: scale(1.1, 1); /* Firefox */
+  -ms-transform: scale(1.1, 1); /* IE 9+ */
+  -o-transform: scale(1.1, 1); /* Opera */
+  font-size: 11px;
+  font-weight: 400;
+  width: 70%;
+  line-height: 1;
+  padding-bottom: 0px;
+  text-transform: lowercase;
+  text-align: center;
+  padding-left: 0%;
+  display: inline;
+}
+
+/* the positions */
+span.Name {
+  background: #cddbf9;
+  border-radius: 15px;
+  color: #1c58ea;
+  padding: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* the positions for editors*/
+span.Name2 {
+  background: #e7e5fa;
+  border-radius: 15px;
+  color: #756add;
+  padding: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* the positions for creator*/
+span.Name3 {
+  background: rgba(38, 175, 224,0.15);
+  border-radius: 15px;
+  color: rgb(38, 175, 224);
+  padding: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* about you */
+h2.Blurb  {
+  font-family: 'Helvetica', sans-serif;
+  font-stretch:extra-expanded;
+  transform: scale(1.1, 1);
+  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
+  -moz-transform: scale(1.1, 1); /* Firefox */
+  -ms-transform: scale(1.1, 1); /* IE 9+ */
+  -o-transform: scale(1.1, 1); /* Opera */
+  font-size: 16px;
+  color: #898d91;
+  font-weight: 400;
+  width: 80%;
+  line-height: 1;
+  padding-bottom: 0px;
+  text-align: center;
+  padding-left: 10%;
+}
+
+/* names */
+p.Position  {
+  font-family: "Georgia";
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #282d46;
+  text-align: center;
+}
+
+/* coloring of the names */
+span {
+  color:#282d46;
+}
+
+#socials.row{
+  display: flex;
+  flex-direction:  row;
+  flex-wrap: wrap;
+  z-index: 400;
+  margin-left: 9%;
+  margin-top: -1200%;
+  width: 90vw;
+  overflow: hidden;
+  display:inline-flex;
+  padding-bottom: 12vw;
+  z-index: 800;
+}
+
+#socials.column{
+  display: flex;
+  flex-direction:  column;
+  flex: 1;
+  border-spacing: 5px;
+  margin: 10px;
+  z-index: 400;
+  margin-right: 5%;
+}
+
+#socials.one-column{
+  text-align: center;
+  margin-left: 0%;
+}
+
+#socials.two-column{
+  text-align: center;
+}
+
+#socials.three-column{
+  text-align: center;
+}
+
+#socials.four-column{
+  text-align: center;
+}
+
+#socials.five-column{
+  text-align: center;
+}
+
+#socials img {
+  height: 60px;
+  width:60px;
+  margin-right: 50%;
+}
+
+#second img {
+  height: auto;
+  margin-right: 50%;
+  margin-top: 25%;
+}
+
+#third img {
+  height: auto;
+  margin-right: -10%;
+  margin-top: 10%;
+}
+
+#fourth img {
+  height: auto;
+  margin-left: -20%;
+  margin-top: 45%;
+}
+
+#five img {
+  height: auto;
+  margin-left: 20%;
+  margin-top: -10%;
+}
+
+#member.row{
+  z-index: 400;
+  width: 100vw;
+  z-index: 800;
+    display: flex;
+     justify-content: center;
+   align-items: center;
+}
+
+#member.column{
+  border-spacing: 5px;
+  z-index: 400;
+  flex: 0.18;
+}
+
+#member.one-column{
+  text-align: center;
+  /* margin-left: 10%; */
+  background:  #f8f8f8;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgb(0,0,0,0.12);
+  width: 254px;
+}
+
+#member.two-column{
+  margin-top: 0%;
+  height: 350px;
+  width: 254px;
+  text-align: center;
+  background:  #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgb(0,0,0,0.12);
+}
+
+#member.three-column{
+  margin-top: 0%;
+  height: 350px;
+  width: 254px;
+  text-align: center;
+  background:  #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgb(0,0,0,0.12);
+}
+
+#member img {
+  height: 130px;
+  margin-top: 45px;
+  width:130px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 100%;
+  box-shadow: 0px 5px 10px rgb(0,0,0,0.1);
+}
+
+a
+{
+  text-decoration: none;
+  color: #8d949d;
+  transition: color 0.3s ease;
+}
+
+/* initial visibility is hidden, display is none */
+.modalDialog {
+  visibility: hidden;
+  display: none;
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgba(40, 45, 70, 0.295);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  overflow: scroll;
+}
+
+/* make the current clicked on modal visible, scrollable and displayed
+pointer events are only those currently visible*/
+.modalDialog:target {
+  opacity:1;
+  /* pointer-events: visible; */
+  visibility: visible;
+  display:block;
+  overflow: scroll;
+}
+
+/* make contents of inside modal visible and scrollable */
+.modalDialog > div {
+  width: 700px;
+  position: relative;
+  margin: 10% auto;
+  padding: 10px 0px 90px 0px;
+  border-radius:  16px;
+  background:  #f8f8f8;
+  overflow: scroll;
+  visibility: visible;
+}
+
+h2.data-bio{
+  margin-top: 30px;
+  font-family: "Georgia";
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #282d46;
+  text-align: center;
+}
+
+p.data-bio{
+  font-family: 'Helvetica', sans-serif;
+  font-stretch:extra-expanded;
+  transform: scale(1.1, 1);
+  -webkit-transform: scale(1.1, 1); /* Safari and Chrome */
+  -moz-transform: scale(1.1, 1); /* Firefox */
+  -ms-transform: scale(1.1, 1); /* IE 9+ */
+  -o-transform: scale(1.1, 1); /* Opera */
+  font-size: 16px;
+  color: #898d91;
+  font-weight: 400;
+  width: 80%;
+  line-height: 1;
+  padding-bottom: 0px;
+  text-align: center;
+  padding-left: 10%;
+}
+
+img.in-modal-bio{
+  border-radius: 200px;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  object-fit: cover;
+  box-shadow: 0px 5px 10px rgb(0,0,0,0.1);
+}
+
+.launch-top{
+  padding-left: 20px;
+  margin: 0 auto;
+  display:block;
+  width: 80px;
+}
+/* max-width: 1024px */
+@media screen and (max-width: 700px){
+
+  /* make contents of inside modal visible and scrollable */
+  .modalDialog > div {
+    width: 80%;
+    position: relative;
+    margin: 10% auto;
+    padding: 10px 0px 90px 0px;
+    border-radius:  16px;
+    overflow: scroll;
+    visibility: visible;
+  }
+
+}
